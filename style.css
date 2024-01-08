@@ -138,6 +138,7 @@ header {
 }
 
 .party-join {
+    display: block;
     color: #FFF;
     /* text-align: center; */
     font-family: Inter;
@@ -145,8 +146,9 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-left: 158px;
-    margin-top: 48px;
+    padding-left: 150px;
+    padding-top: 25px;
+    text-decoration: none;
 }
 
 .party>img {
@@ -285,7 +287,7 @@ header {
     margin-right: 140px;
     border-radius: 16px;
     margin-bottom: 0px;
-    height: 940px;
+    height: 908px;
     background-position: bottom;
 }
 
@@ -438,8 +440,8 @@ header {
 .subscribe {
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
-    height: 616px;
-    margin-top: 120px;
+    height: 600px;
+    margin-top: 150px;
     margin-left: 140px;
     margin-right: 140px;
 }
@@ -482,7 +484,7 @@ header {
     border: none;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
-    margin-left: 30%;
+    margin-left: 29%;
 
     color: rgba(7, 2, 17, 0.30);
     text-align: center;
@@ -503,6 +505,7 @@ header {
     color: #FFF;
     margin-left: -4px;
     padding-top: 4px;
+    font-size: 18px;
 }
 
 /* subscrib-section */
@@ -530,7 +533,7 @@ footer p {
     /* 166.667% */
 }
 
-.adress {
+.address {
     height: 80px;
     width: 375px;
     margin-right: 500px;
@@ -539,7 +542,7 @@ footer p {
 .cell {
     position: relative;
     top: -75px;
-    right: 11px;
+    right: 10px;
 }
 
 .website {
@@ -554,7 +557,7 @@ footer p {
 }
 
 .socials {
-    margin-left: 600px;
+    margin-left: 620px;
     margin-top: 35px;
 }
 
@@ -578,7 +581,19 @@ footer>a {
     font-weight: 500;
     line-height: normal;
     margin-top: -33px;
-    margin-left: 84%;
+    margin-left: 85%;
+}
+
+.call {
+    position: relative;
+    top: -72%;
+    left: 1117px;
+}
+
+.web {
+    position: relative;
+    top: -64%;
+    right: -71%;
 }
 
 /* footer-section */
